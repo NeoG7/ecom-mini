@@ -1,0 +1,15 @@
+.cart {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  padding: 16px;
+  transition: 0.3s;
+}
+
+.cart.open {
+  right: 0;
+}
